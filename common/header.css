@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+div {
+    width:100%;
+    margin:0 auto;
+}
+
+ul {
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+li {
+    float: left;
+    list-style-type: none;
+    width: 33%;
+    height: 50px;
+    line-height: 50px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: gray; 
+}

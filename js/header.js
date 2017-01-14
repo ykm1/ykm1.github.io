@@ -1,0 +1,1 @@
+document.write('<div><ul><li><a href="study.html">STUDY</a></li><li><a href="study.html">PORTFOLIO</a></li>                <li><a href="study.html">DAILY</a></li></ul></div>');
