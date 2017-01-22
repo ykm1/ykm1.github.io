@@ -1,1 +1,1 @@
-document.write('<div><ul><li><a href="study.html">STUDY</a></li><li><a href="study.html">PORTFOLIO</a></li>                <li><a href="study.html">DAILY</a></li></ul></div>');
+document.write('<div class="gnb-menu"><ul class="gnb-ul"><li class="gnb-li"><a href="index.html">HOME</a></li><li class="gnb-li"><a href="study.html">STUDY</a></li><li class="gnb-li"><a href="portfolio.html">PORTFOLIO</a></li>      <li class="gnb-li"><a href="daily.html">DAILY</a></li></ul></div>');

@@ -3,30 +3,36 @@
     padding: 0;
 }
 
-body {
+.gnb-menu {
     text-align: center;
-}
-
-div {
     width:100%;
-    margin:0 auto;
-}
+    position: fixed;
+    top: 0;
+    margin: 0;
+    border-bottom: 1px solid black;
+    height: 50px;
+    background-color: white; 
+} 
 
-ul {
+
+.gnb-ul {
     overflow: hidden;
+    width: 70%;
+    margin: 0 auto;
     box-sizing: border-box;
 }
 
-li {
+.gnb-li {
     float: left;
     list-style-type: none;
-    width: 33%;
+    width: 25%;
     height: 50px;
     line-height: 50px;
     box-sizing: border-box;
 }
 
-a {
+.gnb-li a {
     text-decoration: none;
-    color: gray; 
+    font-weight: 700;
+    color: black;
 }
