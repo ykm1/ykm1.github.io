@@ -4,14 +4,13 @@
         <meta charset="UTF-8">
         <title>HOME</title>
         <!--        여기서부터-->
-        <script
-                src="https://code.jquery.com/jquery-3.1.1.slim.js"
-                integrity="sha256-5i/mQ300M779N2OVDrl16lbohwXNUdzL/R2aVUXyXWA="
-                crossorigin="anonymous"></script>
+        <script src="js/jquery-1.11.3.min.js"></script>
         <link rel="stylesheet" href="/common/header.css">    
         <!--        여기까지 복사 붙여넣기-->
         <style>
-
+            body {
+                display: none;
+            }
             .message {
                 width: 100%;
                 height: 400px;
@@ -32,13 +31,13 @@
                 box-sizing: border-box;
                 margin: 80px auto;
             }
-            
+
             td {
                 width: 30%;
                 text-align: center;
                 padding: 10px;
             }
-            
+
             td img {
                 width: 80px;
             }
@@ -75,9 +74,13 @@
         </div>
 
     <script>
-        function hello() {
-            alert('hello');
-        }
+        var $body = $('body');
+        $( document ).ready(function() {
+            console.log( "ready!" );
+            $body.fadeIn(500);
+        });
+
+
     </script>
     </body>
 </html>
