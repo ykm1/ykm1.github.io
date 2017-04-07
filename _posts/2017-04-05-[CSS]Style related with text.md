@@ -6,7 +6,7 @@ tags: [CSS,font,text]
 ---
 **font** - 글꼴 속성을 한꺼번에 묶어 표현 가능
 ~~~
-font: <font-style><font-variant><font-weigt><font-size/line-height>
+font: <font-style> <font-variant> <font-weigt> <font-size/line-height>
 <font-family> | caption | icon | menu | message-box | small-caption 
 | status-bar | initial | inherit; 
 ~~~
@@ -55,7 +55,7 @@ font: <font-style><font-variant><font-weigt><font-size/line-height>
      * center : 가운데 정렬
      * justify : 양쪽 정렬
 * **line-height** - 줄 간격을 조절하는 속성<br>
-`p {font-size: 15px; line-heigh: 2.0;}`
+`p {font-size: 15px; line-heigh: 2.0;}`<br>
 기본 값은 normal로 수치로는 1.2에 해당. 값이 1.2라면 현재 엘리먼트 폰트 크기의 1.2배만큼 간격을 준다는 의미.
 
 #### 4. 목록과 링크 스타일
