@@ -95,15 +95,5 @@ URL링크 : <http://www.google.com>
 ---
 
 ### 테이블 Tables
-테이블 생성
-Header 1 | Header 2
---------- | ---------
-Content 1 | Content 3
-Content 2 | Content 4
-
-테이블 정렬
-| Header 1 | Header 2 | Header 3 |
-| :-------- | :--------: | --------: |
-| Left | Center | Right |	
-
+표 작성에 유용한 사이트 [Markdown Tables Generator](http://www.tablesgenerator.com/markdown_tables)
 ---
