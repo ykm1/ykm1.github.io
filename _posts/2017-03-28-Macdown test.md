@@ -4,8 +4,8 @@ title: "Markdown Test"
 categories: test
 tags: [test]
 ---
-### 제목 Headers<br>
 
+### 제목 Headers<br>
 `#`으로 시작하는 텍스트.<br>
 `#`은 하나부터 여섯개까지 쓸 수 있고, `#`이 늘어날때마다 제목의 수준은 내려간다.<br>(보통 글씨 크기가 작아진다.)
 # Markdown
@@ -14,7 +14,6 @@ tags: [test]
 #### Markdown
 ##### Markdown
 ###### Markdown
-<br>
 또는 `-`, `=`을 이용하여 h1, h2를 쓸 수 있다
 
 ---
@@ -28,7 +27,7 @@ tags: [test]
 ---
 
 ### 코드 블럭 Code Blocks
-````` 혹은 `~~~` 코드 첫 줄과 마지막 줄에 Back quote ( ` ) 또는 물결( ~ ) 3개 삽입
+첫 줄과 마지막 줄에 Back quote ( ` ) 또는 물결( ~ ) 3개 삽입
 ~~~
 코드 블럭의
 예시
@@ -39,15 +38,16 @@ tags: [test]
 
 ### 인라인 코드 블럭 Inline Code Blocks
 
-``(Back quote)`로 감싸진 텍스트
+Back quote ( ` ) 로 감싸진 텍스트 <br>
+
 `div` `인라인 코드 블럭` `인라인` `코드` `블럭`
 
 ---
 
 ### 강조 Emphasis
 
-기울여 쓰기(italic) : `*` 또는 `_`로 감싼 텍스트
-굴게쓰기(bold) : `**` 또는 `__`로 감싼 텍스트
+기울여 쓰기(italic) : `*` 또는 `_`로 감싼 텍스트<br>
+굵게쓰기(bold) : `**` 또는 `__`로 감싼 텍스트
 
 *기울여쓰기*
 **굵게쓰기**
@@ -58,7 +58,8 @@ tags: [test]
 ### 외부링크 External Links
 인라인링크 : [구글](http://www.google.com “구글”)
 
-참조링크 : [Google][1] [Naver][2]
+참조링크 : 
+[Google][1] [Naver][2]
 [1]:http://google.com/"구글"
 [2]:http://naver.com/"네이버"
 
@@ -94,15 +95,15 @@ URL링크 : <http://www.google.com>
 ---
 
 ### 테이블 Tables
-테이블 생성<br>
-header1 | header2
---------|--------
-content1|content1
-content2|content2
+테이블 생성
+Header 1 | Header 2
+--------- | ---------
+Content 1 | Content 3
+Content 2 | Content 4
 
-테이블 정렬<br>
-|header1 | header2 | header3 |
-|:-------|:-------:|--------:|
-|left|center|right|
+테이블 정렬
+| Header 1 | Header 2 | Header 3 |
+| :-------- | :--------: | --------: |
+| Left | Center | Right |	
 
 ---
