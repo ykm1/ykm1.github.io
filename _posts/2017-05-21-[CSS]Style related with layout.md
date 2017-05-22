@@ -52,16 +52,15 @@ tags: [CSS,layout]
 `border-(bottom-left/botton-right)-radius: <크기>|<백분율>`
 
 #### 3. 여백을 조절하는 속성들
-* **margin** - 요소 주변 여백 설정,한 요소와 다른 요소 사이의 간격을 조절<br>
+* **margin** - 요소 주변 여백 설정, 요소 사이의 간격을 조절<br>
 `margin-(top/right/bottom/left): <크기>|<백분율>|auto`<br>
 `margin: <크기>|<백분율>|auto`
 * **padding** - 콘텐츠 영역과 테두리 사이 여백 설정, 테두리 안쪽의 여백<br>
 `padding-(top/right/bottom/left): <크기>|<백분율>|auto`<br>
 `padding: <크기>|<백분율>|auto`
 <br>
-![margin](https://ykm1.github.io/images/margin.jpeg)
-![padding](https://ykm1.github.io/images/padding.jpeg)
-<img width="50px" height="50px"></img>
+![margin](https://ykm1.github.io/images/margin.png)
+![padding](https://ykm1.github.io/images/padding.png)
 <br>
 *top > right > bottom > left (시계방향)으로 속성 적용*
 
