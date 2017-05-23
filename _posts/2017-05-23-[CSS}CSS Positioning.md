@@ -11,7 +11,7 @@ tags: [CSS,position,float]
 `box-sizing: contents-box|border-box`
 	* 박스 모델의 width와 height속성은 박스 모델 안에 있는 콘텐츠 부분의 너비와 높이를 의미
 	* content-box:width속성 값을 콘텐츠 영역 너비 값으로 사용. 기본값.
-	* border-box:width속성 값을 콘텐츠 영역에 테두리까지 포함한 박스 모델 전체 너비 값으로 사용.
+	* border-box:width속성 값을 콘텐츠 영역에 테두리까지 포함한 박스 모델 전체 너비 값으로 사용.<br>
 ![box-sizing](https://ykm1.github.io/images/box-sizing.png)
 
 ~~~
@@ -23,7 +23,7 @@ tags: [CSS,position,float]
 		margin: 10px;
 		padding: 30px;
 		border: 2px solid red;
-	}							________❶
+	}				___❶
 	.box2 {
 		box-sizing: border-box;
 		width: 300px;
@@ -31,7 +31,7 @@ tags: [CSS,position,float]
 		margin: 10px;
 		padding: 30px;
 		border: 2px solid red;
-	}							________❷
+	}				___❷
 </style>
 
 <div class="box1"> box-sizing = "content-box" </div>
@@ -40,7 +40,7 @@ tags: [CSS,position,float]
 
 * **float** - 왼쪽이나 오른쪽으로 배치<br>
 필요한 만큼만 차지하고 다른 요소가 들어올 만큼의 공간을 비워둠.<br>
-(이미지와 텍스트를 나란히 표시하려고 할 때)
+(이미지와 텍스트를 나란히 표시하려고 할 때)<br>
 `float: left | right | none`
 * **clear** - float 속성 해제<br>
 float속성이 더 이상 유용하지 않다고 알려주는 속성<br>
@@ -56,7 +56,7 @@ left,right 상관없이 무효화는 clear:both
 	가까운 부모요소 중 position이 relative인 요소를 기준으로 함
 	* fixed: 브라우저 창 기준으로 배치하고 위치 고정
 	* static을 제외한 나머지 속성 값은 좌표를 이용해 요소의 위치를 조절<br>  	top,bottom,left,right로 지정
-* **visibility** - 요소를 보이게 하거나 보이지 않게, 겹치게
+* **visibility** - 요소를 보이게 하거나 보이지 않게, 겹치게<br>
 `visibility: visible | hidden | collapse`
 	* visible: 화면에 요소를 표시. 기본값
 	* hidden: 화면에서 요소를 감춤. 크기 그대로 공간 차지
@@ -74,7 +74,7 @@ z-index값을 명시하지 않을 경우, 뒤에 삽입되는 요소의 값이 �
 	.b1 {z-index: 1;}
 	.b2 {z-index: 3;}
 	.b3 {z-index: 2;}
-						 ____b1->b3->b2 순으로
+				___b1->b3->b2 순으로
 </style>
 <div iid="wrapper">
 	<div id="box" class="b1">1</div>
@@ -110,7 +110,7 @@ _다단 관련 속성은 브라우저별 접두사를 붙여 사용_
 	* 특정요소 앞 `break-after: column | avoid-column`
 	* 특정요소 뒤 `break-before: column | avoid-column`
 	* 특정요소 안 `break-inside: column | avoid-column`
-	* column: 단나눔  | avoid-column: 단 나누지않음
+	* column: 단나눔|avoid-column: 단 나누지않음
 * **column-span** - 여러 단을 하나로 합치기<br>
 (2016년 2월 기준, 파이어폭스는 이 속성을 제대로 지원하지 않음)<br>
 `column-span: 1 | all`<br>
