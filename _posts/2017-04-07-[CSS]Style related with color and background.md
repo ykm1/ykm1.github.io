@@ -6,7 +6,7 @@ tags: [CSS,color,background]
 ---
 **background** - 속성 하나로 배경 이미지 제어하기
 ~~~
-backgrond: <color> <image> <repeat> <attachment>
+background: <color> <image> <repeat> <attachment>
 <position> <size>;
 ~~~
 <br>

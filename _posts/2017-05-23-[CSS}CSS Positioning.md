@@ -110,7 +110,7 @@ _다단 관련 속성은 브라우저별 접두사를 붙여 사용_
 	* 특정요소 앞 `break-after: column | avoid-column`
 	* 특정요소 뒤 `break-before: column | avoid-column`
 	* 특정요소 안 `break-inside: column | avoid-column`
-	* column: 단나눔|avoid-column: 단 나누지않음
+	* column: 단나눔, avoid-column: 단 나누지않음
 * **column-span** - 여러 단을 하나로 합치기<br>
 (2016년 2월 기준, 파이어폭스는 이 속성을 제대로 지원하지 않음)<br>
 `column-span: 1 | all`<br>
